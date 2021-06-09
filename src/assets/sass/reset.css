@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/* 초기화 */
+
+html {overflow-y:auto;height:100%;/*min-width:320px*/
+	-webkit-text-size-adjust: none;
+	touch-action: manipulation;
+
+}
+button{
+	-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-o-transition: all .3s ease;transition: all .3s ease;
+
+}
+*{
+	-webkit-overflow-scrolling: touch;
+
+}
+::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+}
+body {margin:0;padding:0;font-size:13px;height:100%;font-family:"Noto Sans KR", sans-serif !important;font-weight: 400;letter-spacing:-0.4px;line-height: 100%;
+
+}
+html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
+h1, h2, h3, h4, h5, h6 {font-family:"Noto Sans KR", sans-serif;	transform: skew(-0.03deg);}
+h1, h2, h3, h4, h5, h6 { font-weight: 400 ;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
+legend {position:absolute;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
+label, input, button, select, img {vertical-align:middle}
+input, button {margin:0;padding:0;font-size:1em;font-family:"Noto Sans KR", sans-serif;	transform: skew(-0.03deg);}
+button {cursor:pointer;border: 0;outline:none;}
+button:focus {outline:0 !important;}
+input[type=text], input[type=password], input[type=submit], input[type=image], button {-webkit-appearance:none}
+textarea, select {font-family:"Noto Sans KR", sans-serif;	transform: skew(-0.03deg);}
+textarea {border-radius:0;-webkit-appearance:none;font-family:"Noto Sans KR", sans-serif;	transform: skew(-0.03deg);}
+select {margin:0;background:none;font-family:"Noto Sans KR", sans-serif;	transform: skew(-0.03deg);}
+p {margin:0;padding:0;word-break:break-all;font-family:"Noto Sans KR", sans-serif;	transform: skew(-0.03deg);}
+hr {display:none}
+pre {overflow-x:scroll;}
+a {color:#000;text-decoration:none;cursor: pointer;	transform: skew(-0.03deg);}
+ul,li,dl,dt,dd {padding:0;margin:0;}
+ul {list-style:none;}
+caption,legend,hr{display: none; position: absolute; left: -9999px; text-indent: 9999px; width: 0; height: 0; border: 0; overflow: hidden; font-size: 0; line-height: 0; white-space: nowrap}
+table{margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+table { border-collapse:collapse;border-spacing:0;table-layout: fixed;width: 100%;  border-spacing: 0; table-layout: fixed; }
+table,th,td{border:none;border-spacing:0;border-collapse:collapse;table-layout:fixed}
+th, td { word-wrap: break-word; word-break: break-all ;vertical-align: middle;margin:0;padding:0;}
+td{text-align: center;}
+
+input, textarea, select{ border: 0;}
+input[type="button"], input[type="text"], input[type="email"], input[type="search"], input[type="password"], textarea, input[type="submit"] { -webkit-appearance: none; outline: none; }
+input::placeholder{color: #B5B7BB;font-weight: 400;}
+input:focus, textarea:focus{ border-color: #585858 !important; outline: none; }
+input[type="button"]:focus, input:focus, textarea:focus, select:focus, .form-control:focus, .btn.focus, .btn:focus{ outline: none; box-shadow: none; }
+select::-ms-expand{ display:none;}
+ul,ol{list-style:none}
+ul, li {list-style:none;}
+em,address,i{font-style:normal;word-break:break-word}
+a { -webkit-tap-highlight-color: #00000054;}
+
+
+.fL{float: left;}
+.fR{float: right;}
+
+
+*,:after,:before {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+
+.skip {display:inline-block;position:absolute;top:0;left:0;margin:0 !important;padding:0 !important;width:1px !important;height:1px !important;font-size:0 !important;line-height:0 !important;overflow:hidden}
+
+
+.dB{display: block;}
+.taC{text-align: center;}
+
+
+/*froala editor*/
+.fr-toolbar.fr-top {
+	border-radius: 0 !important;
+}
+
+.fr-toolbar {
+	border: none !important;
+}
+
+.fr-box.fr-basic .fr-wrapper {
+	border: none !important;
+}
+
+.second-toolbar {	border-radius: 0 !important;
+	border: none !important;
+}
+*:focus {
+	-webkit-tap-highlight-color: transparent;
+	outline: none;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+}
+html{
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);}
+body{
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+button:active {
+	outline: none;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0.4);
+	-webkit-appearance: none;
+
+}
+button{
+	-webkit-appearance: none;
+}
+input{}
+a:active {	-webkit-tap-highlight-color: transparent;
+	outline: none;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+}
+
+
+
+
+
+
