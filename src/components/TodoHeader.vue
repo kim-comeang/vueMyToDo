@@ -30,13 +30,13 @@ export default {
 }
     .header {
         display: flex;
-        font-size: 20px;
-        line-height: 20px;
         .logo {
-            
+            font-size: 20px;
+            line-height: 20px;
         }
         .date {
-
+            font-size: 20px;
+            line-height: 20px;
         }
     }
 </style>
