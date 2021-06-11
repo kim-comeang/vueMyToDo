@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <TodoHeader />
-    <TodoTitle />
-    <TodoInput />
-    <TodoController />
-    <TodoList />
+    <div id="container">
+      <TodoTitle />
+      <TodoInput />
+      <TodoController />
+      <TodoList />
+    </div>
     <TodoFooter />
   </div>
 </template>
@@ -31,8 +33,7 @@ export default {
 </script>
 
 
-<style lang="scss" scoped>
-@import "/sass/reset.css";
-// @import "sass/default.scss";
-// @import "sass/responsive.scss";
+<style lang="scss">
+@import './assets/sass/reset.css';
+@import './assets/sass/default.scss';
 </style>
