@@ -24,19 +24,21 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 * {
     margin: 0;
     padding: 0;
 }
-    .header {
-        display: flex;
-        .logo {
-            font-size: 20px;
-            line-height: 20px;
-        }
-        .date {
-            font-size: 20px;
-            line-height: 20px;
-        }
+.header {
+    display: flex;
+    .logo {
+        font-size: 20px;
+        line-height: 20px;
     }
+    .date {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
 </style>
